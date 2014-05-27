@@ -57,3 +57,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin]
 #START_HIGHLIGHT
 gem 'will_paginate', '~> 3.0'
 #END_HIGHLIGHT
+
+group :production do
+  gem 'pg', '0.15.1'
+  gem 'rails_12factor', '0.0.2'
+end
