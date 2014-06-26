@@ -8,7 +8,8 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 #---
 # encoding: utf-8
-Product.delete_all
+User.create(name: 'akame', password: 'foobar', password_confirmation: 'foobar')
+#Product.delete_all
 Product.create(title: 'CoffeeScript',
   description: 
     %{<p>
